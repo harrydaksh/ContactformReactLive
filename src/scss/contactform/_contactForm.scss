@@ -1,0 +1,50 @@
+.contact_Form{
+  background: #61dafb;
+  padding: 2rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 82vh;
+  .form{
+    padding: 2rem;
+    width: 50vh;
+
+    margin: 0 auto;
+    background: antiquewhite;
+    border-radius: 1rem;
+    .input
+    {
+      display: flex;flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      position: relative;
+
+      label{
+        font-size: 1.6rem;
+        color: gray;
+      }
+      input{
+        padding: 0.5rem;
+        border-radius: 5px;
+        width: 60%;
+font-size: 1rem;
+        color: darkred;
+        font-weight: bold;
+        border: none;
+
+      }
+      input + div{
+        color: red;
+        position: absolute;
+        bottom: -20px;
+      }
+    }
+  }
+
+}
+.heading{
+  color: #282c34;
+  text-transform: uppercase;
+  text-align: center;
+}
